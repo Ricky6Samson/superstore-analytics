@@ -99,11 +99,34 @@ Superstore-Analytics/
 
 ---
 
-##  Key Visuals  
-- **Regression:** Actual vs Predicted Profit, Residual Distribution  
-- **Classification:** Confusion Matrix, Feature Importance  
-- **Clustering:** Elbow Curve, Silhouette Score, Cluster Summary Bar Chart  
-- **Time Series:** Prophet Forecast Plot, Components Plot, SARIMAX Forecast  
+## 📊 Results & Visualizations
+
+###  Regression – Actual vs Predicted
+This plot compares the predicted profit values from the XGBoost Regression model against the actual profits, showing how well the model fits the data.
+
+![Actual vs Predicted](visuals/regression/actual_vs_predicted_plot.png)
+
+---
+
+###  Classification – Confusion Matrix
+The confusion matrix shows how accurately the model classified profitable vs non-profitable orders.
+
+![Confusion Matrix](visuals/classification/confusion_matrix.png)
+
+---
+
+###  Clustering – PCA Cluster Visualization
+This 2D PCA projection illustrates the separation of customer segments identified through K-Means clustering.
+
+![PCA Clusters](visuals/clustering/PCA_Clusters.png)
+
+---
+
+###  Time Series – Prophet Forecast
+The Prophet forecast plot highlights future sales predictions based on historical Superstore data.
+
+![Prophet Forecast](visuals/time_series/prophet_forecast.png)
+
 
 ---
 
