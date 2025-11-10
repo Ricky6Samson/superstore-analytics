@@ -46,9 +46,8 @@ It demonstrates **end-to-end data science skills** — from data preprocessing a
 ##  Project Structure  
 
 ```
-##  Project Structure  
+##  Project Structure
 
-```
 Superstore-Analytics/
 │
 ├── data/
@@ -96,7 +95,6 @@ Superstore-Analytics/
 │       └── sarimax_forecast_plot.png
 │
 └── README.md
-```
 ```
 
 ---
