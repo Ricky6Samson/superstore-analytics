@@ -8,11 +8,11 @@ It demonstrates **end-to-end data science skills** — from data preprocessing a
 
 ##  Objectives  
 - Understand sales and profit patterns across regions, categories, and customer segments.  
-- Build a regression model to **predict profit** using key business factors.  
-- Classify orders based on profitability levels.  
-- Segment customers using **K-Means clustering** to identify groups with similar purchase behaviors.  
-- Forecast future sales using **SARIMAX** and **Prophet** models.  
-- Visualize findings and model performance for business decision-making.
+- Built a regression model to **predict profit** using key business factors.  
+- Classified orders based on profitability levels.  
+- Segmented customers using **K-Means clustering** to identify groups with similar purchase behaviors.  
+- Forecasted future sales using **SARIMAX** and **Prophet** models.  
+- Visualized findings and model performance for business decision-making.
 
 ---
 
@@ -21,7 +21,7 @@ It demonstrates **end-to-end data science skills** — from data preprocessing a
 ###  Data Processing  
 - pandas  
 - numpy
-- sklearn.preprocessing  
+- sklearn.preprocessing(StandardScaler) 
 
 ###  Visualization  
 - matplotlib  
