@@ -104,7 +104,7 @@ Superstore-Analytics/
 ###  Regression – Actual vs Predicted
 This plot compares the predicted profit values from the XGBoost Regression model against the actual profits, showing how well the model fits the data.
 
-!(visuals/regression/actual_vs_predicted_plot.png)
+![Actual vs Predicted](visuals/regression/actual_vs_predicted_plot.png)
 
 ---
 
