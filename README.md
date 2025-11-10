@@ -46,36 +46,57 @@ It demonstrates **end-to-end data science skills** — from data preprocessing a
 ##  Project Structure  
 
 ```
+##  Project Structure  
+
+```
 Superstore-Analytics/
 │
 ├── data/
-│   ├── superstore_raw.csv
-│   ├── regression_results.csv
-│   ├── classification_results.csv
-│   ├── cluster_summary.csv
-│   ├── sarimax_forecast.csv
-│   └── prophet_forecast.csv
+│   ├── classification_results.joblib
+│   ├── cleaned_superstore_data.xlsx
+│   ├── cluster_summary.joblib
+│   ├── prophet_forecast.joblib
+│   ├── raw_superstore_data.xlsx
+│   ├── regression_results.joblib
+│   └── sarimax_forecast.joblib
 │
 ├── notebooks/
-│   ├── 01_Data_Preprocessing.ipynb
-│   ├── 02_Regression_Profit_Prediction.ipynb
-│   ├── 03_Classification_Profitability.ipynb
-│   ├── 04_Clustering_Customer_Segmentation.ipynb
-│   └── 05_TimeSeries_SalesForecast.ipynb
-│
-├── visuals/
-│   ├── regression/
-│   ├── classification/
-│   ├── clustering/
-│   └── timeseries/
+│   ├── Classification.ipynb
+│   ├── Regression.ipynb
+│   ├── Clustering.ipynb
+│   └── Time_Series_Analysis.ipynb
 │
 ├── models/
-│   ├── xgboost_profit_model.pkl
-│   ├── kmeans_model.pkl
-│   └── prophet_model.json
+│   ├── KMeans.joblib
+│   ├── prophet_model.joblib
+│   ├── sarimax_model.joblib
+│   ├── XGBClassifier.joblib
+│   └── XGBRegressor.joblib
 │
-├── requirements.txt
+├── visuals/
+│   ├── classification/
+│   │   ├── confusion_matrix.png
+│   │   └── feature_importance_plot.png
+│   │
+│   ├── clustering/
+│   │   ├── elbow_plot.png
+│   │   ├── PCA_Clusters.png
+│   │   └── silhouette_plot.png
+│   │
+│   ├── regression/
+│   │   ├── actual_vs_predicted_plot.png
+│   │   ├── error_distribution_plot.png
+│   │   ├── feature_importance_plot.png
+│   │   └── residual_plot.png
+│   │
+│   └── time_series/
+│       ├── prophet_components.png
+│       ├── prophet_forecast.png
+│       ├── prophet_plot.png
+│       └── sarimax_forecast_plot.png
+│
 └── README.md
+```
 ```
 
 ---
