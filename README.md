@@ -1,12 +1,12 @@
-# 🏪 Superstore Sales Analytics & Forecasting Project
+#  Superstore Sales Analytics & Forecasting Project
 
-## 📘 Overview  
+##  Overview  
 This project analyzes the **Superstore dataset** to uncover key business insights, predict profit, segment customers, and forecast future sales trends.  
 It demonstrates **end-to-end data science skills** — from data preprocessing and feature engineering to machine learning, clustering, and time series forecasting.
 
 ---
 
-## 🎯 Objectives  
+##  Objectives  
 - Understand sales and profit patterns across regions, categories, and customer segments.  
 - Build a regression model to **predict profit** using key business factors.  
 - Classify orders based on profitability levels.  
@@ -16,34 +16,34 @@ It demonstrates **end-to-end data science skills** — from data preprocessing a
 
 ---
 
-## 🧰 Libraries Used  
+##  Libraries Used  
 
-### 📊 Data Processing  
+###  Data Processing  
 - pandas  
-- numpy  
+- numpy
+- sklearn.preprocessing  
 
-### 📈 Visualization  
+###  Visualization  
 - matplotlib  
 - seaborn  
 
-### 🤖 Machine Learning & Forecasting  
+###  Machine Learning & Forecasting  
 - scikit-learn  
 - xgboost  
 - prophet  
 - statsmodels  
 
-### 🧩 Clustering & Dimensionality Reduction  
+###  Clustering & Dimensionality Reduction  
 - sklearn.cluster (KMeans)  
 - sklearn.decomposition (PCA)  
 
-### ⚙️ Utilities  
+###  Utilities  
 - datetime  
-- pickle  
-- warnings  
+- joblib    
 
 ---
 
-## 🧪 Project Structure  
+##  Project Structure  
 
 ```
 Superstore-Analytics/
@@ -80,7 +80,7 @@ Superstore-Analytics/
 
 ---
 
-## 📊 Key Visuals  
+##  Key Visuals  
 - **Regression:** Actual vs Predicted Profit, Residual Distribution  
 - **Classification:** Confusion Matrix, Feature Importance  
 - **Clustering:** Elbow Curve, Silhouette Score, Cluster Summary Bar Chart  
@@ -88,7 +88,7 @@ Superstore-Analytics/
 
 ---
 
-## 🧠 Insights & Results  
+##  Insights & Results  
 
 - **XGBoost Regression Model:**  
   - R² Score: ~0.83  
@@ -105,7 +105,7 @@ Superstore-Analytics/
 
 ---
 
-## 🚀 Skills Demonstrated  
+##  Skills Demonstrated  
 
 - Data Cleaning & Feature Engineering  
 - Exploratory Data Analysis (EDA)  
@@ -115,19 +115,11 @@ Superstore-Analytics/
 - Data Visualization (Python)  
 - Model Evaluation & Interpretation  
 
----
-
-## 💡 Future Work  
-- Automate the entire pipeline using Python scripts.  
-- Deploy a simple Power BI dashboard for interactive insights.  
-- Extend forecasting to sub-categories and regional trends.  
 
 ---
 
-## 🧑‍💻 Author  
+##  Author  
 **Ricky Samson**  
-Aspiring Data Scientist | Machine Learning Enthusiast  
-📧 Add your email (optional)  
-🌐 [GitHub Profile Link]
-
+Aspiring Data Scientist | Machine Learning Enthusiast   
+[LinkedIn: www.linkedin.com/in/ricky-samson-aa6569331]
 ---
